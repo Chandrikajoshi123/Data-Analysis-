@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Clean Column Names and Fix Datatypes",
+    "body": "- Remove whitespaces and standardize all column names to lowercase + underscores.\n- Convert year to integer and rating, completion_rate, and enrollment to appropriate numeric types.\n- Save the cleaned dataset to `/data/online_courses_cleaned.csv`.",
+    "labels": [
+      "easy"
+    ]
+  },
+  {
+    "title": "Plot Enrollment Trend by Year and Platform",
+    "body": "- Group data by `year` and `platform`\n- Create a multi-line plot showing how enrollments have changed over time\n- Use Seaborn or Plotly\n- Highlight which platforms grew fastest",
+    "labels": [
+      "medium"
+    ]
+  },
+  {
+    "title": "Top 5 Most Popular Topics Globally",
+    "body": "- Count enrollments per topic\n- Plot top 5 topics in a horizontal bar chart\n- Add value labels to the bars",
+    "labels": [
+      "easy"
+    ]
+  },
+  {
+    "title": "Analyze Completion Rate vs Rating",
+    "body": "- Create a scatter plot of `rating` vs `completion_rate`\n- Color-code points by `platform`\n- Add correlation calculation\n- Explore relationship between rating and course completion",
+    "labels": [
+      "medium"
+    ]
+  },
+  {
+    "title": "Heatmap \u2014 Topics by Country",
+    "body": "- Create heatmap showing enrollment of topics by country\n- Filter top 10 countries and top 10 topics\n- Save to `/notebooks/visuals`",
+    "labels": [
+      "hard"
+    ]
+  },
+  {
+    "title": "Create Starter Streamlit App",
+    "body": "- Build `app.py` with sidebar filters (platform, year, topic)\n- Display stats: total courses, average rating, completion rate\n- Placeholder for visualizations",
+    "labels": [
+      "medium"
+    ]
+  },
+  {
+    "title": "Compare Ratings Across Platforms (Box Plot)",
+    "body": "- Boxplot of `rating` grouped by `platform`\n- Use Seaborn\n- Identify best-rated platforms",
+    "labels": [
+      "easy"
+    ]
+  },
+  {
+    "title": "Contributors Guide & PR Template",
+    "body": "- Create `CONTRIBUTING.md` with steps for PRs\n- Create `.github/PULL_REQUEST_TEMPLATE.md` with a checklist",
+    "labels": [
+      "easy"
+    ]
+  },
+  {
+    "title": "Dashboard Deployment (Streamlit/Hugging Face)",
+    "body": "- Deploy Streamlit app online\n- Ensure filters and data load correctly\n- Add live link to README",
+    "labels": [
+      "hard"
+    ]
+  },
+  {
+    "title": "Add Summary Notebook (summary.ipynb)",
+    "body": "- Create notebook summarizing insights\n- Include visualizations + markdown interpretations\n- Save as `notebooks/summary.ipynb`",
+    "labels": [
+      "medium"
+    ]
+  }
+]
